@@ -1,0 +1,51 @@
+body {
+    background: url('../images/Fondo.jpg') no-repeat center center;
+    background-size: cover;
+    font-family:  'Montserrat', sans-serif;
+    background-color: #f0f9f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contact-form {
+
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+}
+.contact-form h2 {
+    margin-bottom: 15px;
+    color: #4CAF50;
+    text-align: center;
+}
+.contact-form input, .contact-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family:  'Montserrat', sans-serif;
+}
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    resize: none;
+  }
+  
